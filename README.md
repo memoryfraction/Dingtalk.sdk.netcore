@@ -1,4 +1,4 @@
-# DingtalkRobetSDK.Netcore
+# DingtalkSDK.Netcore
 一款使用C#/.NETCORE6.0 的钉钉sdk
 
 ## 1 配置群
