@@ -1,5 +1,5 @@
 # DingtalkRobetSDK.Netcore
-一款使用C#/.NETCORE的钉钉sdk
+一款使用C#/.NETCORE6.0 的钉钉sdk
 
 ## 1 配置群
 电脑安装登录钉钉,随便找两个朋友,新建一个群(不用经过他们允许),然后新建一个
