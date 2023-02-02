@@ -1,24 +1,12 @@
-# DingtalkRobetSDK.Netcore
-一款使用C#/.NETCORE的钉钉sdk
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
-## 1 配置群
-电脑安装登录钉钉,随便找两个朋友,新建一个群(不用经过他们允许),然后新建一个
-群机器人,再删除你的两个朋友就可以了,取得 webhook 和 secret.
- 
-
-
-
-
-
-成功获得AccessToken和UserSecret。
-
-## 2 配置与使用
-配置AccessToken和UserSecret到下图指定位置
-
-根据单元测试配置代码
-
-'''
-// IOC
+namespace DingtalkSDK.Netcore.TestProject
+{
+    [TestClass]
+    public class UnitTests
+    {
+        // IOC
         private ServiceCollection _services;
         private string _accessToken, _secret;
         private IConfigurationRoot _configuration;
@@ -51,10 +39,5 @@
                 Assert.IsTrue(response.StatusCode == System.Net.HttpStatusCode.OK);
             }
         }
-'''
-
-
-## 3 使用结果
-
-
-
+    }
+}

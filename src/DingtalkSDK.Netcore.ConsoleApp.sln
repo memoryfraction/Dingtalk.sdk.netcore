@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DingtalkSDK.Netcore", "DingtalkSDK.Netcore\DingtalkSDK.Netcore.csproj", "{E72A2B6C-5D53-4507-92D0-7A417736BEED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DingtalkSDK.Netcore.TestProject", "DingtalkSDK.Netcore.TestProject\DingtalkSDK.Netcore.TestProject.csproj", "{FBD758B1-E3B2-4EE3-95ED-9467FDAF7EB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72A2B6C-5D53-4507-92D0-7A417736BEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72A2B6C-5D53-4507-92D0-7A417736BEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72A2B6C-5D53-4507-92D0-7A417736BEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72A2B6C-5D53-4507-92D0-7A417736BEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD758B1-E3B2-4EE3-95ED-9467FDAF7EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD758B1-E3B2-4EE3-95ED-9467FDAF7EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD758B1-E3B2-4EE3-95ED-9467FDAF7EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD758B1-E3B2-4EE3-95ED-9467FDAF7EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7546B303-01FD-4B6A-8887-ABDAE405F543}
+	EndGlobalSection
+EndGlobal
