@@ -21,8 +21,8 @@
 ![image](https://github.com/memoryfraction/DingtalkSDK.Netcore/blob/main/resources/images/7.png?raw=true)
 根据单元测试配置代码
 
-'''
-// IOC
+``` c#
+        // IOC
         private ServiceCollection _services;
         private string _accessToken, _secret;
         private IConfigurationRoot _configuration;
@@ -55,7 +55,7 @@
                 Assert.IsTrue(response.StatusCode == System.Net.HttpStatusCode.OK);
             }
         }
-'''
+```
 
 
 ## 3 使用结果
