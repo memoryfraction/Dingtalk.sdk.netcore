@@ -1,5 +1,5 @@
-# DingtalkRobetSDK.Netcore
-一款使用C#/.NETCORE的钉钉sdk
+# DingtalkSDK.Netcore
+一款使用C#/.NETCORE6.0 的钉钉sdk
 
 ## 1 配置群
 电脑安装登录钉钉,随便找两个朋友,新建一个群(不用经过他们允许),然后新建一个
@@ -21,8 +21,8 @@
 ![image](https://github.com/memoryfraction/DingtalkSDK.Netcore/blob/main/resources/images/7.png?raw=true)
 根据单元测试配置代码
 
-'''
-// IOC
+``` c#
+        // IOC
         private ServiceCollection _services;
         private string _accessToken, _secret;
         private IConfigurationRoot _configuration;
@@ -55,7 +55,7 @@
                 Assert.IsTrue(response.StatusCode == System.Net.HttpStatusCode.OK);
             }
         }
-'''
+```
 
 
 ## 3 使用结果
