@@ -2,7 +2,7 @@
 
 namespace DingtalkSDK.Netcore
 {
-    public interface IDingtalkService
+    public interface IDingtalkManager
     {
         Task<RestResponse> SendNotificationAsync(string content, string accessToken, string secret);
     }

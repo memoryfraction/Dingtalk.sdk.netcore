@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DingtalkSDK.Netcore
 {
-    public class DingtalkService : IDingtalkService
+    public class DingtalkManager : IDingtalkManager
     {
         public async Task<RestResponse> SendNotificationAsync(string content, string accessToken, string secret)
         {
